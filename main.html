@@ -5,21 +5,35 @@
     
     <head>
         <meta charset="utf-8">
+        
         <title>Erich VanDeBogart | Welcome</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    
+        <script src="main.js">
+        </script>
         
         <footer>
-            <!-- randomized text for sample  -->
+            <!-- header  -->
+            <div id="example1" class="center">
                 <h3>Erich VanDeBogart</h3>
-                <p> My major is ACS, I am from Maryland. I have been at UAT since Fall 2020. Here is a funny video that I found.</p>
+                <p id="Text"> </p>
+                <script>
+                    displayText();
+                </script>
+            </div>
         <!-- link for youtube, adding multi media -->
-                    <iframe 
+                    <iframe id="example2"
                     width="420" height="345" src="https://www.youtube.com/embed/K3TTkhHclTM?playlist=K3TTkhHclTM&loop=1">
                     </iframe>
                     <!-- more sample text -->
-                    <h3>Graduation Date: End of Summer 2023</h3>
+                    <h1>Graduation Date: End of Summer 2023</h1>
+
   </footer>
         <h2>Email: erivande@uat.edu</h2>
+        <button onclick="myFunc()">Click Me To see a message.</button>
+        <button onclick="myFunc2()">Green</button>
+        <button onclick="myFunc1()">Click Me to delete a message. (Still working on This)</button>
+        <!-- Not sure how to delete the message once it pops up.-->
+        <p id="Text1"> </p>
 </html>
