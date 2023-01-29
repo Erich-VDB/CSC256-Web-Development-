@@ -1,0 +1,2 @@
+The html doc needs to have the css, and js docs with it to work. Once all the docs are download.
+You can edit it to youn own specs, and use your own words 
