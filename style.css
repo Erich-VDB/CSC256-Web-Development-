@@ -1,0 +1,134 @@
+body{
+    /*Simple text */
+    font-family: 15px/Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    /*Background color */
+    background-color:rgb(127, 127, 127)
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+ /*header */
+header{
+    background:#35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: hsl(239, 82%, 51%) 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #bradning h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #3cff00;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+
+
+
+html,
+body {
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              padding: 0;
+              font-family: "Helvetica", sans-serif;
+            }
+            img {
+              max-width: 100%;
+            }
+            .slider-container {
+              height: 100%;
+              width: 100%;
+              position: relative;
+              overflow: hidden;
+              text-align: center;
+            }
+            .menu {
+              position: absolute;
+              left: 0;
+              z-index: 900;
+              width: 100%;
+              bottom: 0;
+            }
+            .menu label {
+              cursor: pointer;
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background: #fff;
+              border-radius: 50px;
+              margin: 0 0.2em 1em;
+            }
+            .menu label:hover,
+            .menu label:focus {
+              background: #1c87c9;
+            }
+            .slide {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 100%;
+              z-index: 10;
+              padding: 8em 1em 0;
+              background-size: cover;
+              background-position: 50% 50%;
+              transition: left 0s 0.75s;
+            }
+            [id^="slide"]:checked + .slide {
+              left: 0;
+              z-index: 100;
+              transition: left 0.65s ease-out;
+            }
+            .slide-1 {              
+              background: #1cc92d;            }            
+            .slide-2 {              
+              background: #1c87c9;            }            
+            .slide-3 {              
+              background: #c9301c;              
+             }
+             .slide-4 {              
+              background: rgb(201, 28, 187);              
+             }
+        
