@@ -1,20 +1,15 @@
-function displayText(){
-    document.getElementById("Text").innerHTML = "My major is ACS, I am from Maryland. I have been at UAT since Fall 2020. Here is a funny video that I found.";
+var arrMovie = [];
 
-}
-function myFunc() {
-    alert("This is the Java Script button");   
-    document.getElementById("Text1").innerHTML = "========> My name Jeff";
-
-}
-function myFunc1() {
-    alert("Do not read this."); 
-    delete myFunc;
-    //Not working. Need to fix later 
+for (var i=0; i<4; i++){
+    arrMovie.push(prompt("Enter a four items on your shopping list: ", ""));
 }
 
-function myFunc2()  
-{  
-document.getElementById("Text").style.backgroundColor='Red';  
+arrMovie.sort();
 
-}  
+for(var i=0; i<arrMovie.length; i++){
+    document.getElementById("test").innerHTML += arrMovie[i] + "<BR>";
+}
+
+function clearList(){
+    document.getElementById("test").innerHTML = "";
+}
