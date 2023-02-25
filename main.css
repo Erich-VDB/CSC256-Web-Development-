@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 0);
+    color:black; 
+    font-size: 16pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    background-color: aquamarine;
+}
+
+button{
+    background-color: cadetblue;
+}

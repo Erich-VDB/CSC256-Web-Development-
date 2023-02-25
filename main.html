@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shopping List</title>
-    </head>
-    <body>
-        <h2>Supply List</h2>
-        <p>Here are the items on your shopping list: </p>
-        <div id="test"></div>
-        <script src="main.js"></script>
-        <input type="button" value="reset" onclick="clearList();">
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Game Login</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Form. does not post anywhere to keep things simple -->
+    <form>
+        <!-- First name-->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" class="customClass"><br>
+
+        <!-- Last Name-->
+        <label for="lname">last Name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+
+        <!-- Email-->
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br>
+
+        <button type="button" onclick="processForm();">Submit Form</button>
+    </form>
+
+    <!-- div is hidden-->
+    <div id="userInfo" style="display: none;">
+    <br>
+    <label for="firstName">First Name: </label><div id="firstName"></div>
+    <label for="lastName">Last Name:</label><div id="lastName"></div>
+    <label for="theAge">Age: </label><div id="theAge"></div>
+    <label for="theEmail">Email: </label><div id="theEmail"></div>
+    </div>
+</body>
 </html>
