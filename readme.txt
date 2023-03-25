@@ -1,5 +1,5 @@
-there is one file labeled main.html. 
-The stlye portion can be charnged to enlarge the chessbaord 
-The Script portion can be altered to change the board's length and width 
+Hello, these files are meant to be used to play a demo of checkers 
 
-hope you enjoy this chess board 
+The style function to adjust the size and colors of the board is located in main.html 
+
+the main.js is the core of the code that creates most of the checker board 
