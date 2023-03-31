@@ -11,3 +11,6 @@ function processForm(){
     //email
     document.getElementById("theEmail").innerText = document.getElementById("email").value;
 }
+function myFunction() {
+    document.getElementById("demo").style.color = "red";
+  }

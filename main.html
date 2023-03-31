@@ -11,32 +11,36 @@
 <body>
     <!-- Form. does not post anywhere to keep things simple -->
     <form>
+        <h3 id="demo" onclick="myFunction()">Click this text to change the color.</h3>
+        <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
         <!-- First name-->
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" class="customClass"><br>
 
-        <!-- Last Name-->
-        <label for="lname">last Name</label><br>
+        <!-- weapons-->
+        <label for="lname">Last Name</label><br>
         <input type="text" id="lname" name="lname"><br>
 
-        <!-- Age -->
+        <!-- Health -->
         <label for="age">Age:</label><br>
         <input type="text" id="age" name="age"><br>
 
-        <!-- Email-->
+        <!-- Level-->
         <label for="email">Email</label><br>
         <input type="text" name="email" id="email"><br>
 
         <button type="button" onclick="processForm();">Submit Form</button>
     </form>
+    <br>
+
 
     <!-- div is hidden-->
     <div id="userInfo" style="display: none;">
     <br>
     <label for="firstName">First Name: </label><div id="firstName"></div>
-    <label for="lastName">Last Name:</label><div id="lastName"></div>
-    <label for="theAge">Age: </label><div id="theAge"></div>
-    <label for="theEmail">Email: </label><div id="theEmail"></div>
+    <label for="lastName">Weapons:</label><div id="lastName"></div>
+    <label for="theAge">Health: </label><div id="theAge"></div>
+    <label for="theEmail">Level: </label><div id="theEmail"></div>
     </div>
 </body>
 </html>
